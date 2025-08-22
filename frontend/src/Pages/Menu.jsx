@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import { data } from '../restApi.json'
 import { StoreContext } from '../context/StoreContext'
+import HeroSection from '../components/HeroSection'
 
 const Menu = () => {
   const [category, setCategory] = useState("All");
@@ -28,6 +29,7 @@ const Menu = () => {
   return (
     <>
       <Navbar />
+     
 
       <section className='menu-section' id='menu'>
         <div className="menu-container">
@@ -86,7 +88,7 @@ const Menu = () => {
       <style jsx>{`
         .menu-section {
           padding: 80px 20px 40px;
-          background:rgb(254, 254, 254);
+          
           min-height: 100vh;
           
           

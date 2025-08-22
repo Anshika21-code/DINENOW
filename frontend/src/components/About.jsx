@@ -52,7 +52,7 @@ const About = () => {
             <p className="mid">
               We believe that great meals bring people together, and finding the perfect table shouldn't be a hassle. That's why we created DineNow – to bridge the gap between food enthusiasts and exceptional restaurants, making dining reservations as simple as a few clicks.
             </p>
-            <Link to={"/"}>
+            <Link to={"/menu"}>
               Explore Menu{" "}
               <span>
                 <HiOutlineArrowRight />

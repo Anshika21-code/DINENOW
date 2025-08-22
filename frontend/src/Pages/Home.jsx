@@ -6,7 +6,7 @@ import Menu from '../Pages/Menu'
 import WhoAreWe from '../components/WhoAreWe'
 import Team from '../components/Team'
 import Reservation from '../components/Reservation'
-import Footer from '../components/Footer'
+
 
 
 const Home = () => {
@@ -15,12 +15,9 @@ const Home = () => {
       <HeroSection/>
       <About/>
       <Qualities/>
-      
       <WhoAreWe/>
       <Team/>
       <Reservation/>
-        
-      <Footer/>
     </>
   )
 }
