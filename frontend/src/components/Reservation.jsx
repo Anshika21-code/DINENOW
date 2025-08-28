@@ -17,7 +17,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://dinenow-xlhc.onrender.com/api/v1/reservation", //  correct endpoint
+        "https://dinenow-backend-aoau.onrender.com", //  correct endpoint
         { firstName, lastName, email, phone, date, time },
         {
           headers: {
